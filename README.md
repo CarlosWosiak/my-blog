@@ -11,9 +11,19 @@ Just some React consuming a blog posts api then displaying it.
 
 # Want to run it?
 To run it install the dependencies with:
+```sh    
+    npm install
+```
+or
 ```sh
-    yarn
-    or
-    npm i
+    yarn  
 ```
 you must set a REACT_APP_API_URL key in the .env file, the api must return the posts in a '/posts' route.
+Then start it with the command: 
+```sh
+    npm run dev
+```
+or 
+```sh
+   yarn dev
+```
