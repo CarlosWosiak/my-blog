@@ -18,5 +18,7 @@ module.exports = {
     'react',
   ],
   rules: {
+    'no-param-reassign': 0,
+    'import/prefer-default-export': 'off',
   },
 };
