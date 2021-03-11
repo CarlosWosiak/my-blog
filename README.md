@@ -27,3 +27,6 @@ or
 ```sh
    yarn dev
 ```
+
+
+Have fun! 😉
