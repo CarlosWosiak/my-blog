@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import renderHTML from 'react-render-html';
+import './Post.scss';
 
 const Post = ({ title, body }) => (
   <div>
     <h1>{title}</h1>
-    <div>{renderHTML(body)}</div>
+    <div className="post-container">{renderHTML(body)}</div>
   </div>
 );
 
