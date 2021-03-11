@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './BlogPosts.scss';
 import { getBlogPosts } from '../../services/blog-service';
 import Post from '../Post/Post';
 
@@ -21,7 +22,7 @@ const BlogPosts = () => {
   }, []);
 
   return (
-    <div>
+    <div className="blog-container">
       {posts}
     </div>
   );
