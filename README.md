@@ -18,7 +18,7 @@ or
 ```sh
     yarn  
 ```
-you must set a REACT_APP_API_URL key in the .env file, the api must return the posts in a '/posts' route.
+you must set a REACT_APP_API_URL key in the .env file, the api must return the posts in a '/post' route.
 Then start it with the command: 
 ```sh
     npm run dev
